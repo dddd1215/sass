@@ -1,35 +1,39 @@
-# sass 사용 거의 안함. scss사용한다. scss --> 샤스라고 읽음
+# sass 사용거의 안함. scss를 사용한다.  scss-->샤스라고 읽음
 
-![image](https://github.com/dddd1215/sass/assets/129017020/07713713-16a0-43c7-ba3e-c2a3afd693eb)
+![image](https://github.com/understanding963852/sass/assets/60366769/1817c33d-2d69-43fd-8cc3-7c141c0a4712)
 
 
 # scss 컴파일
 
-![image](https://github.com/dddd1215/sass/assets/129017020/c41c84f6-128f-4375-a774-e42268d01d1a)
+![image](https://github.com/understanding963852/sass/assets/60366769/c555dd17-9130-4f49-877b-00f0077ace3d)
 
+# css 위치변경
+![image](https://github.com/understanding963852/sass/assets/60366769/14e35178-6cae-4918-9f33-1814977e3281)
 
-# css 위치 변경
+# savaPath:null이면 scss파일과 같은위치에 style.css가 생긴다
+![image](https://github.com/understanding963852/sass/assets/60366769/da95b41f-4e36-45c1-a5cd-028f85e77fac)
 
-![image](https://github.com/dddd1215/sass/assets/129017020/e22423f6-df0a-46c3-85ab-8430a1d22795)
-# savePath:null이면 scss파일과 같은 위치에 style.css가 생긴다.
+# ~은 style.scss를 의미, /는 style.scss가있는 폴더
+![image](https://github.com/understanding963852/sass/assets/60366769/0cf04327-21e3-4995-ae2b-473069cb02c8)
 
-![image](https://github.com/dddd1215/sass/assets/129017020/896e920d-84f1-4120-bb84-1690d05e3d87)
-# ~은style.scss를 의미, /는 style.scss가 있는 폴더
-![image](https://github.com/dddd1215/sass/assets/129017020/e6048fcb-5782-4fc4-8838-4dcbc50e4c5a)
+# scss파일이 있는 폴더의 상위요소에 생성
+![image](https://github.com/understanding963852/sass/assets/60366769/6aa860b7-7b4e-43f4-a96b-8f2c422fb617)
 
-# scss 폴더의 상위요소에 생셩
-![image](https://github.com/dddd1215/sass/assets/129017020/390638a3-0893-47ae-aaea-65c900f9ec74)
+# 주석처리 방법
+#  //주석처리방법은 css로 컴파일되지 않는다
+#  /*  */주석처리방법은 css로 컴파일되어 나타남
+![image](https://github.com/understanding963852/sass/assets/60366769/08be5031-4a6c-42bb-b0ee-711d42737545)
 
-#주석처리방법
-# //주석처리 방법은 css로 컴파일되지 않는다
-#/**/주석처리 방법은 css로 컴파일 되어 나타난다
+# 변수만들기 --> $로 시작함,(영문, 숫자, - , _)만 사용할수 있음. 숫자로 시작할수 없음.
+![image](https://github.com/understanding963852/sass/assets/60366769/fc7da532-5e88-44d0-adb8-b79d0bb66b8a)
 
-# 변수 만들기 --> $로 시작함,(영문,숫자,-,_)만 사용할 수 있음. 숫자로 시작할 수 없음
+# Partials(파샬)
+  -- 관련된것끼리 묶어서 분리/ 소스에 반복되는 부분들을 분리 분산시켜서 모듈화 시키는 기능
+  
+  * Partials의 파밍명은 _로 시작하며
+  * 불러들일때는 @import '파일명',   이때 파일명에 _는 포함시키지 않고, 확장명도 포함시키지 않는다.
+  
+  💠  Scss는 _로 시작하는 파일은 컴파일하지 않는다.
+  
+  ![image](https://github.com/understanding963852/sass/assets/60366769/e5e45fd1-c9a3-41cd-9d6e-c4c598ce8ad9)
 
-# partials(파샬)
---관련된 것 끼리 묶어서 분리/소스에 반복되는 부분들을 분리 분산 시켜서 모듈화 시키는 기능
-
-* partials의 파밍명은_로 시작하며
-* 불러들일때는 @import '파일명' 이때 파일명에 _는 포함시키지 않고, 확장명도 포함시키지 않는다.
-
-Scss는 _로 시작하는 파일은 컴파일하지 않는다.
