@@ -54,3 +54,9 @@
 # *(와일드카드)를 붗이면 이름을 생략할 수 있다. 🚡
 ![image](https://github.com/dddd1215/sass/assets/129017020/1960b8cd-0d51-4564-a204-2ac415394b49)
 
+# 전역변수와 지역변수
+![image](https://github.com/dddd1215/sass/assets/129017020/f22e62c1-58df-4fdf-85b4-0868a33f8e91)
+
+# 보간법
+![image](https://github.com/dddd1215/sass/assets/129017020/bb7843e5-60a4-4322-bbb3-428b2af7b82d)
+
