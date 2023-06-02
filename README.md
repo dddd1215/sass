@@ -60,4 +60,13 @@
 # 보간법
 ![image](https://github.com/dddd1215/sass/assets/129017020/bb7843e5-60a4-4322-bbb3-428b2af7b82d)
 
-# nesting(네스팅)
+# nesting(네스팅)--품다
+
+# 함수
+![image](https://github.com/dddd1215/sass/assets/129017020/b877488b-9c27-4142-883c-747de6d84004)
+
+#
+![image](https://github.com/dddd1215/sass/assets/129017020/5293db4d-5f0a-4426-8bbe-50c40ad0612b)
+
+# extend
+![image](https://github.com/dddd1215/sass/assets/129017020/a9a18de8-1317-4574-a386-b8ad67e791c5)
